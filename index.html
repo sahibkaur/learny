@@ -6,11 +6,26 @@
     </head>
     <body>
         <div>
-            <nav class="p-4 flex justify-between">
-                <img src="images/open-menu.svg" class="w-4 fill-current">
-                <img src="images/dribbble-logo.svg" class="w-20">
+            <nav class="px-8 py-5 flex justify-between">
+                <svg class="fill-current text-gray-500 w-5 md:hidden" height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
+                </svg>
+                <div class="left flex">
+                    <img src="images/dribbble-logo.svg" class="w-20">
+                <ul class="screen-nav hidden md:inline-block md:flex text-gray-600 font-bold">
+                    <li class="p-2">Explore</li>
+                    <li class="p-2">For Designers</li>
+                    <li class="p-2">Hiring Designers?</li>
+                </ul>
+                </div>
+                
                 <span class="text-gray-600">Sign in</span>
             </nav>
+            <ul class="mobile-nav md:hidden absolute w-full bg-white py-2 text-gray-600 font-bold">
+                <li class="px-8 py-2">Explore</li>
+                <li class="px-8 py-2">For Designers</li>
+                <li class="px-8 py-2">Hiring Designers?</li>
+            </ul>
             <header class="md:flex p-10 bg-gray-100">
                 <img src="images/desktop.png" class="md:order-2 md:w-1/2">
                 <div>
